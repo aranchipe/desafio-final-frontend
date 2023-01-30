@@ -1,0 +1,87 @@
+.container-header,
+.title-home {
+    box-sizing: border-box;
+    border-bottom: 1px solid #ACD9C5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 7.2rem;
+    margin: 2.4rem;
+    position: relative;
+}
+
+.header-title-client h1 {
+    color: #0E8750;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    margin-left: 5rem;
+    margin-top: 4rem;
+}
+
+.header-title h2 {
+    color: #0E8750;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    margin-left: 5rem;
+    margin-top: 4rem;
+}
+
+.header-title h2:hover{
+    cursor: pointer;
+}
+
+.header-title h1 {
+    color: #343447;
+    font-weight: 600;
+    font-size: 2.6rem;
+    margin-left: 6rem;
+}
+
+.header-title h2 span {
+    color: #747488;
+    margin-left: 1.5rem;
+}
+
+.header-user {
+    color: #0E8750;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+    position: absolute;
+    bottom: 1.6rem;
+    right: 0;
+}
+
+.user-initals {
+    background: #DEDEE9;
+    border-radius: 100%;
+}
+
+.user-initals h3 {
+    font-size: 2.2rem;
+    text-align: center;
+    padding: 1.2rem;
+}
+
+.header-user span {
+    font-size: 1.8rem;
+}
+
+.header-user img {
+    cursor: pointer;
+    margin-right: 11rem;
+}
+
+.content-header {
+    width: 90%;
+    margin-left: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

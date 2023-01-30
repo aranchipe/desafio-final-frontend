@@ -1,0 +1,221 @@
+.container-register-client-modal {
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(145, 154, 150, 0.3);
+    backdrop-filter: blur(4px);
+    z-index: 2;
+}
+
+.form-register-client {
+    width: 48.7rem;
+    height: 70%;
+    background: #ffffff;
+    border-radius: 3rem;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 5.7rem;
+    position: relative;
+}
+
+.register-client-header {
+    display: flex;
+    margin-bottom: 1.56rem;
+}
+
+.form-register-client h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.6rem;
+    line-height: 130%;
+    color: #3F3F55;
+
+}
+
+.register-client-header img {
+    margin-right: 1rem;
+    width: 3.2rem;
+}
+
+.cpf-telephone {
+    display: flex;
+    justify-content: space-between;
+}
+
+#telephone {
+    width: 22.4rem;
+    margin-left: -4rem;
+}
+
+#cpf {
+    width: 23.5rem;
+}
+
+.cep-bairro {
+    display: flex;
+    justify-content: space-between;
+}
+
+#cep {
+    width: 22.8rem;
+}
+
+#district {
+    width: 23.5rem;
+}
+
+.city-state {
+    display: flex;
+    justify-content: space-between;
+}
+
+#city {
+    width: 30.3rem;
+}
+
+#state {
+    width: 16rem;
+    margin-left: -8rem;
+}
+
+.container-register-client-modal input {
+    all: unset;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 1rem 0 1rem 1.4rem;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    margin-bottom: 8px;
+    font-size: 1.6rem;
+}
+
+.container-register-client-modal label {
+    margin-bottom: 0.6rem;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: #3F3F55;
+}
+
+.container-register-client-modal input::placeholder {
+    color: #9B9BB2;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+
+.botoes {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 4.9rem;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+}
+
+.btn-cancelar {
+    all: unset;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #F8F8F9;
+    border: 1px solid #DEDEE9;
+    border-radius: 1rem;
+    width: 23.3rem;
+    height: 3.46rem;
+    color: #0E8750;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-aplicar {
+    all: unset;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #DA0175;
+    border-radius: 1rem;
+    width: 23.3rem;
+    height: 3.46rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.close-icon {
+    width: 19px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+
+}
+
+.cpf-telephone input {
+    width: 22.5rem;
+}
+
+.telephone input {
+    margin-left: -4rem;
+}
+
+@media screen and (max-device-height: 950px) {
+    .form-register-client {
+        height: 85%;
+        padding: 3rem 3.7rem;
+    }
+}
+
+@media screen and (max-device-height: 850px) {
+    .form-register-client {
+        height: 85%;
+        padding: 3rem 3.7rem;
+    }
+
+    .botoes {
+        margin-top: 3.9rem;
+    }
+}
+
+@media screen and (max-device-height: 745px) {
+    .form-register-client {
+        width: 47rem;
+        height: 85%;
+        padding: 4rem 3.7rem;
+    }
+
+    .register-client-header {
+        display: flex;
+        margin-bottom: 1.56rem;
+        margin-top: -2rem;
+    }
+
+    .register-client-header h1 {
+        font-size: 2.6rem;
+    }
+
+    .form-register-client input {
+        height: 3.5rem;
+    }
+
+    .botoes {
+        margin-top: 1.9rem;
+    }
+}

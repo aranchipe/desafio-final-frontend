@@ -1,0 +1,74 @@
+.delete-bill-modal-body {
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(145, 154, 150, 0.3);
+    backdrop-filter: blur(4px);
+}
+
+.delete-bill-modal-container {
+    width: 600px;
+    height: 400px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.delete-bill-modal-container h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #CC7800;
+    margin-bottom: 2.7rem;
+}
+
+.warning-img {
+    box-sizing: border-box;
+    margin: 64px 0 13px 0;
+}
+
+.no-btn {
+    all: unset;
+    box-sizing: border-box;
+    margin: 0;
+    width: 100px;
+    height: 24px;
+    background: #F2D6D0;
+    border-radius: 4px;
+    color: #AE1100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.yes-btn {
+    all: unset;
+    box-sizing: border-box;
+    margin: 0;
+    width: 100px;
+    height: 24px;
+    background: #ACD9C5;
+    border-radius: 4px;
+    color: #034A2A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.delete-btn {
+    display: flex;
+    width: 21.6rem;
+    justify-content: space-between;
+}

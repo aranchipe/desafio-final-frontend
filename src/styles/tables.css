@@ -1,0 +1,38 @@
+.style-table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+
+
+.style-table table {
+  background: #FFFFFF;
+  border-radius: 30px;
+  font-family: 'Nunito', sans-serif;
+  width: 1115px;
+  height: 20rem;
+  padding: 24px 46px;
+  box-sizing: border-box;
+}
+
+
+.style-table tr {
+  margin: 12px 24px 8px 24px;
+}
+
+
+.style-table th {
+  color: #3F3F55;
+  font-weight: 700;
+  font-size: 16px;
+  gap: 50px;
+}
+
+
+.style-table td {
+  border-bottom: 1px solid #EFF0F6;
+  color: #747488;
+  font-weight: 400;
+  font-size: 14px;
+}

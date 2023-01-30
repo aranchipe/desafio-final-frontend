@@ -1,0 +1,17 @@
+.container-billing {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: #F8F8F9;
+}
+
+.customers-billing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-header-billing {
+    width: 80%;
+    margin-left: 10rem;
+}

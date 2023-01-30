@@ -1,0 +1,89 @@
+.container-edit-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(145, 154, 150, 0.3);
+    backdrop-filter: blur(4px);
+    z-index: 2;
+}
+
+.content-edit-modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 62.3rem;
+    width: 49.1rem;
+    background-color: #ffff;
+    border-radius: 30px;
+    position: relative;
+}
+
+.content-edit-modal img {
+    position: absolute;
+    top: 3rem;
+    left: 44rem;
+    cursor: pointer;
+}
+
+.header-edit-modal {
+    display: flex;
+    position: relative;
+}
+
+.header-edit-modal h2 {
+    margin: 4rem 0 3.2rem 0;
+    font-size: 2.4rem;
+    color: #343447;
+    font-weight: 700;
+}
+
+.container-edit-profile img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.content-edit-modal label {
+    font-size: 1.4rem;
+    color: #344054;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.container-edit-profile input {
+    padding: 1rem 0 1rem 1.4rem;
+    margin-top: 0.6rem;
+    font-size: 1.6rem;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    background-color: #FFFFFF;
+    color: #667085;
+    width: 37.9rem;
+}
+
+.content-cpf-phone {
+    display: flex;
+    gap: 2rem;
+}
+
+.content-cpf-phone input {
+    width: 17.8rem;
+}
+
+.password-modal {
+    position: relative;
+}
+
+.password-modal img {
+    position: absolute;
+    top: 3.5rem;
+    left: 35rem;
+    width: 2rem;
+    height: 1.8rem;
+}

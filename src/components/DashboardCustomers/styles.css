@@ -1,0 +1,157 @@
+.container-dashboard-customers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: calc(100vw - 10.8rem);
+}
+
+.dash-customers {
+    position: relative;
+}
+
+.customers-top {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 113px 30px 104px;
+}
+
+.customers-top-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.customers-top-title h1 {
+    color: #3F3F55;
+    font-family: 'Montserrat', sans-serif;
+    ;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.customers-top-title img {
+    width: 32px;
+    height: 32px;
+}
+
+.customers-top-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.customers-top-btn button {
+    all: unset;
+    background: #DA0175;
+    border-radius: 10px;
+    width: 266px;
+    height: 33px;
+    padding: 4px;
+
+    gap: 4px;
+
+    color: #F8F8F9;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.filter-clients {
+    background: #FFFFFF;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.customers-top-btn input {
+    all: unset;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    font-family: 'Nunito', sans-serif;
+    color: #747488;
+    font-weight: 400;
+    font-size: 18px;
+
+    width: 318px;
+    height: 39px;
+    padding: 7px 8px;
+
+}
+
+.input-filter img {
+    position: relative;
+    right: 30px;
+}
+
+.order-client {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.order-client img {
+    margin-right: -4.5rem;
+}
+
+.customer-name {
+    cursor: pointer;
+}
+
+.status-pay {
+    background: #FFEFEF;
+    border-radius: 8px;
+    color: #971D1D;
+    font-weight: 600;
+    font-size: 14px;
+    height: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.status-ok {
+    background: #EEF6F6;
+    border-radius: 8px;
+    color: #1FA7AF;
+    font-weight: 600;
+    font-size: 14px;
+    height: 19px;
+}
+
+.apply-bill {
+    color: #DA0175;
+    font-weight: 600;
+    font-size: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.apply-bill img {
+    width: 24px;
+    cursor: pointer;
+}
+
+tbody tr {
+    height: 56px;
+}
+
+.order-client-icon {
+    cursor: pointer;
+}

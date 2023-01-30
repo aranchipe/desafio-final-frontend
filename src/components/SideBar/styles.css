@@ -1,0 +1,60 @@
+@import url(../../styles//globalColors.css);
+
+.container-side {
+    box-sizing: border-box;
+    background: #F0F0F5;
+    width: 10.8rem;
+    min-height: 100vh;
+    gap: 7.2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.container-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.container-icons:hover {
+    opacity: 0.8;
+}
+
+
+.line-icon {
+    position: absolute;
+    right: -3rem;
+}
+
+.line-icon2 {
+    position: absolute;
+    right: -2.5rem;
+}
+
+.line-icon3 {
+    position: absolute;
+    right: -1.70rem;
+}
+
+.container-icons h3 {
+    font-size: 1.6rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+
+.home {
+    margin-top: 4.5rem;
+}
+
+.current-line {
+    color: var(--color-bg-buttons);
+}

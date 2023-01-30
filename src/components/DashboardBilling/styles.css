@@ -1,0 +1,185 @@
+.container-dashboard-billing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: calc(100vw - 10.8rem);
+}
+
+.billing-top {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 11.3rem 3rem 10.4rem;
+}
+
+.billing-top-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+}
+
+.billing-top-title h1 {
+    color: #3F3F55;
+    font-family: 'Montserrat', sans-serif;
+    ;
+    font-weight: 600;
+    font-size: 2.6rem;
+}
+
+.billing-top-title img {
+    width: 3.2rem;
+    height: 3.2rem;
+}
+
+.billing-top-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+}
+
+.billing-top-btn button {
+    all: unset;
+    background: #DA0175;
+    border-radius: 1rem;
+    width: 26.6rem;
+    height: 3.3rem;
+    padding: 0.4rem;
+
+    gap: 0.4rem;
+
+    color: #F8F8F9;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.filter-billing {
+    background: #FFFFFF;
+    border-radius: 1rem;
+    width: 4rem;
+    height: 4rem;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.billing-top-btn input {
+    all: unset;
+    background-color: #FFFFFF;
+    border-radius: 1rem;
+    font-family: 'Nunito', sans-serif;
+    color: #747488;
+    font-weight: 400;
+    font-size: 1.8rem;
+
+    width: 31.8rem;
+    height: 3.9rem;
+    padding: 0.7rem 0.8rem;
+
+}
+
+.input-filter img {
+    position: relative;
+    right: 3rem;
+}
+
+.dash-billing {
+    position: relative;
+}
+
+.dash-billing th {
+    text-align: start;
+}
+
+.dash-billing td {
+    text-align: start;
+}
+
+.dash-billing-order img {
+    margin-right: 1.4rem;
+    cursor: pointer;
+}
+
+.column-btn {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    gap: 3rem;
+}
+
+.column-btn-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 0.8rem;
+    gap: 0.5rem;
+    /* cursor: pointer; */
+}
+
+.status {
+    width: 7.7rem;
+    height: 1.9rem;
+    font-weight: 600;
+    font-size: 1.4rem;
+    border-radius: 0.8rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.vencida {
+    background: #FFEFEF;
+    color: #971D1D;
+}
+
+.pendente {
+    background: #FCF6DC;
+    color: #C5A605;
+}
+
+.paga {
+    background: #EEF6F6;
+    color: #1FA7AF;
+}
+
+.del {
+    color: #AE1100;
+    cursor: pointer;
+}
+
+.edit {
+    color: #747488;
+    cursor: pointer;
+}
+
+tr .bill-description {
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right: 24px;
+}
+
+.searchNotFound {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.searchNotFound img {
+    width: 100%;
+}

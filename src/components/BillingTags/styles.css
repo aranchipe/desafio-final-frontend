@@ -1,0 +1,42 @@
+.container-tags {
+    box-sizing: border-box;
+    margin-bottom: 2.4rem;
+    gap: 3.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tag-bill {
+    background: #EEF7F7;
+    border-radius: 3rem;
+    width: 36rem;
+    height: 11.1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #3F3F55;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    gap: 5.4rem;
+}
+
+.tag-red {
+    background-color: #FFEFEF;
+}
+
+.tag-yellow {
+    background-color: #FCF6DC;
+}
+
+.tag-bill h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1.1rem;
+}
+
+.tag-bill strong {
+    font-size: 2.4rem;
+}

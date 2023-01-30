@@ -1,0 +1,57 @@
+button {
+  all: unset;
+  cursor: pointer;
+  text-align: center;
+
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+:root {
+  --btn-pink: #da0175;
+  --btn-grey: #f8f8f9;
+}
+
+.btn-pink-small,
+.btn-grey-middle,
+.btn-pink-big {
+  background-color: #da0175;
+  border-radius: 0.625rem;
+  color: #f8f8f9;
+}
+
+.btn-pink-small {
+  width: 10rem;
+  height: 2.063rem;
+  background-color: var(--btn-pink);
+
+  padding: 5px 35px 5px 35px;
+}
+
+.btn-pink-middle {
+  height: 2.063rem;
+  width: 14.438rem;
+  padding: 0.25rem 5.438rem 0.25rem 5.438rem;
+}
+
+.btn-pink-big {
+  height: 2.063;
+  width: 15.75rem;
+  padding: 0.25rem 3.5rem 0.25rem 3.5rem;
+}
+
+.btn-grey-middle {
+  background-color: var(--btn-grey);
+  border-radius: 0.625rem;
+  color: #0e8750;
+
+  height: 2.063;
+  width: 14.563rem;
+  padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+}
+
+.links a {
+  color: #da0175;
+}

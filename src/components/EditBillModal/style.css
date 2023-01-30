@@ -1,0 +1,174 @@
+.container-register-bill-modal {
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(145, 154, 150, 0.3);
+    backdrop-filter: blur(4px);
+    z-index: 2;
+}
+
+.form-register-bill {
+    width: 48.7rem;
+    height: 70%;
+    background: #ffffff;
+    border-radius: 3rem;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 5.7rem;
+    position: relative;
+}
+
+.register-bill-header {
+    display: flex;
+    margin-bottom: 1.56rem;
+    align-items: center;
+}
+
+.form-register-bill h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.6rem;
+    line-height: 130%;
+    color: #3F3F55;
+
+}
+
+.container-register-bill-modal label {
+    margin-bottom: 0.6rem;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: #3F3F55;
+}
+
+.input {
+    all: unset;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 1rem 1.4rem;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    margin-bottom: 16px;
+    font-size: 1.6rem;
+}
+
+#descricao {
+    width: 485px;
+    height: 88px;
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+}
+
+.vencimento-valor {
+    display: flex;
+    justify-content: space-between;
+}
+
+#vencimento {
+    width: 23.2rem;
+}
+
+
+#valor {
+    width: 23.2rem;
+}
+
+.div-paga {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    width: 487px;
+    height: 48px;
+    background: #F0F0F5;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    margin-top: 12px;
+    padding: 12px 16px;
+}
+
+.div-pendente {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    width: 487px;
+    height: 48px;
+    background: #F0F0F5;
+    border-radius: 10px;
+    padding: 12px 16px;
+}
+
+.unchecked {
+    all: unset;
+    margin: 0;
+    padding: 0;
+    margin-right: 8px;
+    background: #C8C8D7;
+    border-radius: 25px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.checked {
+    all: unset;
+    margin: 0;
+    padding: 0;
+    margin-right: 8px;
+    background: #0E8750;
+    border-radius: 25px;
+    width: 24px;
+    height: 24px;
+    background-image: url('../../assets/checked.svg');
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-position: center;
+}
+
+.botoes-register-bill-modal {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 13.6rem;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+}
+
+@media screen and (max-device-height: 800px) {
+    .form-register-bill {
+        height: 85%;
+    }
+
+    .botoes-register-bill-modal {
+        margin-top: 10rem;
+    }
+}
+
+@media screen and (max-device-height: 700px) {
+    .botoes-register-bill-modal {
+        margin-top: 5rem;
+    }
+}
+
+@media screen and (min-device-height: 801px) {
+    .form-register-bill {
+        height: 70%;
+    }
+
+    .botoes-register-bill-modal {
+        margin-top: 8rem;
+    }
+}

@@ -1,0 +1,219 @@
+.container-customer-detail {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: #F8F8F9;
+}
+
+.content-header-client {
+    width: 1268px;
+}
+
+.customers-top-customer-detail {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.customers-detail-main {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+}
+
+tr .bill-description-detail {
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right: 24px;
+    padding-left: 20px;
+}
+
+.customer-data {
+    width: 100%;
+    min-height: 268px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    box-sizing: border-box;
+    margin-top: 2.4rem;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.customer-data section {
+    width: 100%;
+}
+
+.customer-data-top {
+    width: 100%;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.customer-data-bottom {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.customer-data h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #3F3F55;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    margin-top: 6px;
+    margin-bottom: 24px;
+}
+
+.customer-data h2 {
+    font-family: 'Nunito', sans-serif;
+    color: #3F3F55;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+
+.customer-data span {
+    font-family: 'Nunito', sans-serif;
+    color: #3F3F55;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.customer-data table {
+    width: 100%;
+    height: 100%;
+}
+
+.email {
+    width: 240px;
+}
+
+.telephone {
+    width: 184px;
+}
+
+.cpf {
+    width: 184px;
+}
+
+.cep {
+    width: 184px;
+}
+
+.city {
+    width: 150px;
+
+}
+
+.state {
+    width: 80px;
+}
+
+.complement-vazio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5rem;
+}
+
+.customer-data-main {
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+}
+
+.edit-customer-btn {
+    all: unset;
+    margin: 0;
+    box-sizing: border-box;
+
+    width: 246px;
+    height: 33px;
+    background: #F8F8F9;
+    border: 1px solid #DEDEE9;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+
+.edit-customer-btn span {
+    font-family: 'Nunito', sans-serif;
+    color: #0E8750;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.edit-customer-btn img {
+    width: 13px;
+    margin-right: 4px;
+}
+
+.customer-billings {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    margin-top: 24px;
+}
+
+.customer-billings img {
+    cursor: pointer;
+}
+
+.order-id-cob {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.order-id-cob img {
+    margin-right: -4.5rem;
+}
+
+.add-bill-btn {
+    all: unset;
+    margin: 0;
+    padding: 4px 56px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background: #DA0175;
+    border-radius: 10px;
+    width: 252px;
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 34rem;
+    right: 2.5rem;
+    z-index: 1;
+}
+
+.add-bill-btn span {
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    color: #F8F8F9;
+    margin-left: 6px;
+}

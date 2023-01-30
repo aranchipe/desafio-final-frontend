@@ -1,0 +1,111 @@
+.container-card-client {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3.2rem;
+    margin-top: 3.2rem;
+    margin-bottom: 3.7rem;
+}
+
+.card-client-top {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(172, 217, 197, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 2rem;
+    width: 55.6rem;
+    height: 5.8rem;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 20px 20px 0 0;
+}
+
+.card-client-top-icon {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+
+.card-client-top h3 {
+    color: #3F3F55;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+
+.card-client-top-number {
+    background: #FFEFEF;
+    border-radius: 8px;
+    width: 5.2rem;
+    height: 2.1rem;
+    text-align: center;
+    color: #971D1D;
+}
+
+.card-client-top-number strong {
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+
+.number-green {
+    background-color: #EEF6F6;
+    color: #1FA7AF;
+}
+
+
+.card-client-table table {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border-radius: 0px;
+    font-family: 'Nunito', sans-serif;
+    width: 55.6rem;
+    height: 29.1rem;
+}
+
+.card-client-table thead {
+    box-sizing: border-box;
+    color: #3F3F55;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+.card-client-table tbody {
+    color: #6E6E85;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+
+th,
+td {
+    border-bottom: 1px solid #EFF0F7;
+    text-align: center;
+}
+
+.card-client-bottom {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(172, 217, 197, 0.25);
+    color: #DA0175;
+    font-family: 'Nunito', sans-serif;
+    width: 55.6rem;
+    height: 4.8rem;
+    border-radius: 0 0 20px 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.card-client-bottom span {
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+.card-client-bottom:hover {
+    opacity: 0.8;
+}

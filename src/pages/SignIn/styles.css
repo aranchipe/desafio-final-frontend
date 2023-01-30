@@ -1,0 +1,91 @@
+@import url(../../styles//globalColors.css);
+
+.signin {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.left-signin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 30%;
+    background-color: rgba(3, 74, 42, 0.05);
+    background-image: url(../../assets//bg-signin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+
+.title-left-signin {
+    position: absolute;
+    top: 16.3rem;
+    color: #034A2A;
+    font-weight: 600;
+    font-size: 2.4rem;
+}
+
+.right-signin {
+    width: 70%;
+    background-color: var(--color-grey-buttons);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+.title-signin {
+    margin-top: -100px;
+    margin-bottom: 3.2rem;
+    color: var(--color-titles);
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+
+.area-button-signin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: calc(4.6rem - 2rem);
+    margin-bottom: 1.5rem;
+}
+
+.right-signin p,
+.right-signin a {
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+.password-signin {
+    position: relative;
+}
+
+.forgot-password {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #DA0175;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.password-signin img {
+    position: absolute;
+    top: 3.7rem;
+    right: 1.5rem;
+    cursor: pointer;
+    width: 2rem;
+    height: 1.8rem;
+}
+
+a.td-none {
+    text-decoration: none;
+}
