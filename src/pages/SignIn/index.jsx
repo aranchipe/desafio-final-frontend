@@ -59,7 +59,7 @@ function SignIn() {
                 <h2 className="title-left-signin">Gerencie todos os pagamentos<br /> de sua empresa em um só<br /> lugar.</h2>
             </div>
             <div className="right-signin">
-                <h2 className="title-signin">Faça seu login!</h2>
+                <h2 className="title-signin">Faça o seu login!</h2>
                 <form className="form-input" onSubmit={(e) => handleSubmit(e)}>
                     <label>
                         E-mail
